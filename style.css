@@ -1,0 +1,128 @@
+html {
+    font-family: "Hanken Grotesk";
+}
+
+body {
+    background-color: #1C1D21;
+}
+
+main {
+    max-width: 1440px;
+    padding: 15px 90px;
+}
+
+.main-page {
+    height: 100vh;
+}
+
+.media-links,
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.media-links,
+.linha-decorativa {
+    width: 100%;
+}
+
+.media-links img {
+    height: 50px;
+    margin: 10px 10px
+}
+
+.nome-descricao {
+    width: 65%;
+    margin-top: 45px;
+}
+
+.nome-descricao h1,
+.as-know-as-text,
+.conhecimento-experiencia h2,
+.experiencia {
+    color: #A288A6;
+}
+
+.nome-descricao h1 {
+    line-height: 90px;
+    font-size: 90px;
+}
+
+.nome-descricao span,
+.nome-descricao .descricao,
+.nome-descricao .fale-comigo,
+.projetos-pessoais,
+.tecnologias-futuras {
+    color: #ffffff;
+}
+
+.nome-descricao .as-know-as-text,
+.experiencia,
+.texto-tecnologias {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nome-descricao .descricao,
+.nome-descricao .fale-comigo p {
+    font-size: 20px;
+}
+
+.nome-descricao .descricao {
+    margin-top: 50px;
+    width: 55%;
+}
+
+.nome-descricao .fale-comigo p {
+    margin-top: 80px;
+}
+
+.linha-decorativa {
+    background-color: #A288A6;
+    height: 2px;
+}
+
+.tecnologias {
+    height: 50vh;
+    flex-direction: column;
+}
+
+.conhecimento-experiencia h2,
+.tecnologias-futuras h2 {
+    font-size: 45px;
+}
+
+.experiencia,
+.texto-tecnologias {
+    font-size: 22px;
+}
+
+.projetos-pessoais {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tecnologias-futuras,
+.conhecimento-experiencia,
+.tecnologias {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tecnologias-futuras,
+.tecnologias {
+    text-align: center;
+}
+
+.HTML,
+.CSS,
+.JS,
+.React-SQL,
+.design {
+    width: 300px;
+}
+
+.texto-tecnologias {
+    font-size: 24px;
+    font-weight: 600;
+}
