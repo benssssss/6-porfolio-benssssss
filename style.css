@@ -10,138 +10,195 @@ main {
     max-width: 1440px;
 }
 
-.main-page {
+.hero-page {
     height: 95vh;
     padding: 15px 90px;
 }
 
-.main-page,
-.tecnologias,
+.linguagem-gitpage,
+.linguagens,
+.repo a,
+.repo,
+.repo-name,
+.texto-footer,
+.projects,
+.future-study,
+.knowledge-experience,
+.technologies,
+.social-media-links,
+body,
+.contato,
+.icon-redes,
+.texto-ajuda-nick {
+    display: flex;
+}
+
+.repo,
+.repo a,
+.repo-name,
+.linguagem-gitpage {
+    align-items: center;
+}
+
+.hero-text .hero-title,
+.as-know-as-text,
+.knowledge-experience h2,
+.experience,
+.hero-text .fale-comigo p:hover,
+.social-media-links a,
+.linguagens,
+.repo a:hover,
+.git-pages a:hover {
+    color: #a288a6;
+}
+
+.hero-text span,
+.hero-text .description-text,
+.hero-text .fale-comigo,
+.personal-projects,
+.future-study,
+.social-media-links a:hover,
+.nick,
+.projects-container,
+.contato p,
+.texto-ajuda-nick,
+.social-media-links a:hover,
+.nick,
+.projects-container,
+.contato p,
+.texto-ajuda-nick,
+.nick,
+.projects-container,
+.contato p,
+.texto-ajuda-nick {
+    color: #ffffff;
+}
+
+.hero-page,
+.technologies,
 .projects-container,
 .footer-info {
     padding: 15px 90px;
 }
 
-
-.media-links,
+.social-media-links,
 body {
-    display: flex;
     justify-content: center;
 }
 
-.media-links,
-.linha-decorativa {
+.social-media-links,
+.decorative-line,
+.footer,
+.projects-container,
+.gif {
     width: 100%;
 }
 
-.media-links img {
-    height: 50px;
-    margin: 10px 10px
+.social-media-links {
+    gap: 15px;
 }
 
-.nome-descricao {
+.hero-text {
     width: 65%;
     margin-top: 45px;
 }
 
-.nome-descricao h1,
-.as-know-as-text,
-.conhecimento-experiencia h2,
-.experiencia {
-    color: #a288a6;
-}
-
-.nome-descricao h1 {
+.hero-text .hero-title {
     line-height: 90px;
     font-size: 90px;
 }
 
-.nome-descricao span,
-.nome-descricao .descricao,
-.nome-descricao .fale-comigo,
-.projetos-pessoais,
-.tecnologias-futuras {
-    color: #ffffff;
-}
-
-.nome-descricao .as-know-as-text,
-.experiencia,
-.texto-tecnologias {
-    font-size: 30px;
+.hero-text .as-know-as-text,
+.experience,
+.technology-text {
     font-weight: 700;
 }
 
-.nome-descricao .descricao,
-.nome-descricao .fale-comigo p {
+.hero-text .as-know-as-text,
+.experience,
+.technology-text,
+.repo {
+    font-size: 30px;
+}
+
+.hero-text .description-text,
+.hero-text .fale-comigo p {
     font-size: 20px;
 }
 
-.nome-descricao .descricao {
+.hero-text .description-text {
     margin-top: 50px;
     width: 55%;
 }
 
-.nome-descricao .fale-comigo p {
+.hero-text .fale-comigo p {
     margin-top: 80px;
+    border-bottom: #ffffff 2px solid;
+    padding: 0 0 15px 0;
+    width: 130px;
 }
 
-.linha-decorativa {
-    background-color: #A288A6;
+.hero-text .fale-comigo p:hover {
+    border-bottom: #A288A6 1px solid;
+    transition: 0.3s ease-in-out;
+}
+
+.decorative-line {
     height: 2px;
 }
 
-.tecnologias {
+.decorative-line,
+.footer {
+    background-color: #A288A6;
+}
+
+.technologies {
     height: 50vh;
     flex-direction: column;
 }
 
-.conhecimento-experiencia h2,
-.tecnologias-futuras h2 {
+.knowledge-experience h2,
+.future-study h2 {
     font-size: 45px;
 }
 
-.experiencia,
-.texto-tecnologias {
+.experience,
+.technology-text {
     font-size: 22px;
 }
 
-.projetos-pessoais {
+.personal-projects {
     font-size: 18px;
     font-weight: 400;
 }
 
-.tecnologias-futuras,
-.conhecimento-experiencia,
-.tecnologias {
-    display: flex;
+.future-study,
+.knowledge-experience,
+.technologies {
     justify-content: space-around;
 }
 
-.tecnologias-futuras,
-.tecnologias {
+.future-study,
+.technologies {
     text-align: center;
 }
 
 .HTML,
 .CSS,
 .JS,
-.React-SQL,
+.REACT-SQL,
 .design {
     width: 300px;
 }
 
-.texto-tecnologias {
-    font-size: 24px;
+.technology-text,
+.repo-name,
+.linguagens p {
     font-weight: 600;
 }
 
 .projects {
     margin-top: 30px;
-}
-
-.projects-container {
-    width: 100%;
-    color: #ffffff;
 }
 
 .projects-container h2 {
@@ -150,121 +207,110 @@ body {
 
 .project {
     width: 48%;
-    height: 50%;
     margin-top: 20px;
 }
 
-.gif {
-    width: 100%;
+.gif,
+.project {
     height: 50%;
 }
 
-.nome-repo {
-    font-size: 24px;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.repo p {
+    font-size: 22px;
 }
 
-.repo {
-    display: flex;
-    align-items: center;
+.repo-name .repo .repo-icon {
     height: 30px;
 }
 
-.repo a {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    font-weight: 100;
-    font-family: "Open sans";
-}
-
-.nome-repo .repo .repo-icon {
-    height: 30px;
+.repo-name .repo .repo-icon,
+.linguagem-gitpage {
     margin-top: 5px;
 }
 
-.linguagem-gitpage,
-.linguagens {
-    display: flex;
-}
-
-.linguagem-gitpage {
-    justify-content: space-between;
-    margin-top: 3px;
-    align-items: center;
-}
-
-.linguagens p {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.linguagens {
+.linguagens,
+.repo a {
     gap: 10px;
-    color: #A288A6;
 }
 
 .git-pages p {
     font-family: "Roboto Condensed";
-    font-size: 26px;
     font-weight: 700;
     margin-right: 0px;
 }
 
-.git-pages span {
+.git-pages p,
+.git-pages span,
+.technology-text,
+.repo-name,
+.linguagens p {
     font-size: 24px;
-    margin-left: 5px;
+}
+
+.repo a,
+.git-pages span {
     font-weight: 100;
     font-family: "Open sans";
 }
 
+.git-pages span {
+    margin-left: 5px;
+}
+
 .projects {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .footer {
-    background-color: #A288A6;
     padding: 25px 0px;
     margin-top: 50px;
-    width: 100%;
 }
 
 .contato img {
     height: 40px;
 }
 
-.texto-footer {
-    display: flex;
+.texto-footer,
+.projects,
+.linguagem-gitpage,
+.repo-name {
     justify-content: space-between;
 }
 
 .footer h2 {
     font-size: 90px;
-    color: #1C1D21;
 }
 
 .contato {
-    display: flex;
     flex-direction: column;
     width: 350px;
 }
 
 .icon-redes {
-    display: flex;
     flex-direction: row-reverse;
     gap: 15px;
     margin-top: 25px;
 }
 
+.icon-redes,
+.social-media-links {
+    font-size: 50px;
+}
+
+.contato .icon-redes a:hover,
+.nick:hover,
+.social-media-links a:hover,
+.footer h2 {
+    color: #1C1D21;
+}
+
+.social-media-links a:hover {
+    color: #ffffff;
+}
+
 .contato p,
 .texto-ajuda-nick {
     font-size: 22px;
-    color: #ffffff;
 }
 
 .me-contate p {
@@ -273,13 +319,19 @@ body {
 
 .texto-ajuda-nick {
     width: 350px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .nick {
-    color: #ffffff;
     font-size: 45px;
     font-weight: 800;
+}
+
+.repo a:hover,
+.git-pages a:hover,
+.contato .icon-redes a:hover,
+.nick:hover,
+.social-media-links a:hover {
+    transition: 0.3s ease-in-out;
 }
