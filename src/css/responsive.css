@@ -1,0 +1,295 @@
+html {
+    font-size: 62.5%;
+    font-family: "Hanken Grotesk";
+    font-weight: 900;
+}
+
+body {
+    background-color: #1C1D21;
+    color: rgb(255, 255, 255);
+
+}
+
+.main-container {
+    min-height: 100vh;
+    display: grid;
+
+    grid-template-areas:
+        "menu-page menu-page"
+        "tech-page tech-page"
+        "projects-page projects-page"
+        "contact-page contact-page";
+
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+
+    background-image: url('/src/images/background-code.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu-page {
+    grid-area: menu-page;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 1rem;
+}
+
+.social-media a {
+    font-size: 4rem;
+}
+
+.social-media a:hover {
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-texts {
+    padding: 2.1rem;
+}
+
+.hero-texts .title {
+    font-size: 3.6rem;
+    line-height: 4rem;
+}
+
+.hero-texts .description,
+.hero-texts .title,
+.hero-texts .description,
+.speak-to-me {
+    text-align: center;
+}
+
+.hero-texts .title .augusto-name {
+    color: #ffffff;
+}
+
+.as-know-as,
+.hero-texts .title,
+.social-media a {
+    color: #A288A6;
+}
+
+.hero-texts .as-know-as,
+.hero-texts .description,
+.speak-to-me {
+    font-size: 1.8rem;
+}
+
+.hero-texts .description,
+.speak-to-me {
+    font-weight: 300;
+}
+
+.hero-texts .description {
+    margin-top: 7rem;
+}
+
+.speak-to-me {
+    margin-top: 10rem;
+    border-bottom: #ffffff solid 2.5px;
+    padding-bottom: 10px;
+    width: 125px;
+}
+
+.container-speak-to-me {
+    display: flex;
+    justify-content: center;
+}
+
+.container-speak-to-me p:hover {
+    color: #A288A6;
+    border-color: #A288A6;
+    transition: 0.3s ease-in-out;
+}
+
+/* --------------------------- */
+
+.tech-page {
+    grid-area: tech-page;
+    background-color: #1C1D21;
+    padding: 3rem;
+    height: 100vh;
+}
+
+.tech-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.tech-title,
+.tech-title-next,
+.experience,
+.experience-next-tech {
+    font-size: 4rem;
+    color: #A288A6;
+}
+
+.experience,
+.experience-next-tech {
+    font-weight: 500;
+}
+
+.experience,
+.experience-next-tech {
+    font-size: 2.2rem;
+}
+
+.personal-experience {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.experience-next-tech,
+.tech-title-next {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* --------------------------- */
+
+.projects-page {
+    grid-area: projects-page;
+    background-color: #1C1D21;
+    padding: 2.1rem;
+}
+
+.projects-page h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.title-repo,
+.repo,
+.language-pages,
+.languages,
+.pages,
+.pages a {
+    display: flex;
+}
+
+.title-repo {
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.title-repo,
+.language-pages {
+    font-weight: 500;
+}
+
+.title-repo {
+    font-size: 1.7rem;
+}
+
+.repo {
+    align-items: center;
+    font-size: 2rem;
+}
+
+.repo,
+.pages a {
+    gap: 5px;
+}
+
+.repo p,
+.span-pages {
+    font-weight: 200;
+}
+
+.language-pages,
+.languages,
+.pages {
+    font-size: 1.5rem;
+}
+
+.repo p {
+    font-size: 1.7rem;
+}
+
+.languages {
+    color: #A288A6;
+    gap: 5px;
+    font-size: 1.8rem;
+}
+
+.language-pages {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pages a {
+    flex-direction: row;
+}
+
+.github {
+    font-family: "Roboto Condensed";
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.span-pages {
+    font-family: "Open sans";
+    font-size: 1.7rem;
+}
+
+.title-repo a:hover {
+    color: #A288A6;
+    transition: 0.3s ease-in-out;
+}
+
+.pages a:hover {
+    color: #A288A6;
+    transition: 0.3s ease-in-out;
+}
+
+.container {
+    margin-top: 35px;
+}
+
+/* --------------------------- */
+
+.contact-page {
+    grid-area: contact-page;
+    background-color: #A288A6;
+    padding: 1.5rem 4rem;
+    text-align: center;
+}
+
+.contact-page .contact {
+    font-size: 5rem;
+    color: #1C1D21;
+    font-weight: 900;
+}
+
+.ouvir-sobre,
+.me-contate {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contact,
+.ouvir-sobre {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.social-media a:hover {
+    color: #1C1D21;
+}
