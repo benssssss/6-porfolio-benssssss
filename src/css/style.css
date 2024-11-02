@@ -47,7 +47,7 @@
     }
 
     .tech-page {
-        padding: 0;
+        padding: 5rem 0;
         width: 100%;
     }
 
@@ -97,7 +97,6 @@
         width: 350px;
         font-size: 2rem;
     }
-
 }
 
 @media (min-width: 768px) {
@@ -144,8 +143,8 @@
     .tech-page {
         display: flex;
         flex-wrap: wrap;
-        height: 450px;
-        padding: 10px 50px;
+        height: 500px;
+        padding: 7rem 5rem;
     }
 
     .tech-container {
@@ -156,7 +155,7 @@
 
     .projects-page {
         padding: 10px 50px;
-        margin-top: 25px;
+
     }
 
     .projects-page h2 {
@@ -216,6 +215,15 @@
         line-height: 8.5rem;
     }
 
+    .tech-page {
+        gap: 10px 0;
+        height: auto;
+    }
+
+    .tech-container {
+        height: 150px;
+    }
+
     .hero-texts .as-know-as {
         font-size: 3.7rem;
     }
@@ -270,16 +278,15 @@
     }
 
     .tech-page {
-        gap: 5px;
+        gap: 25px 5px;
         height: 320px;
-        padding: 10px 50px;
+        padding: 8rem 50px;
     }
 
     .tech-container {
         width: 33%;
         height: 110px;
         margin: 0;
-        align-items: flex-start;
     }
 
     .hero-texts {

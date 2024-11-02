@@ -42,7 +42,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 1.2rem;
-    padding: 1rem;
+    padding: 2.3rem 1rem;
 }
 
 .social-media a {
@@ -126,8 +126,9 @@ body {
 .tech-page {
     grid-area: tech-page;
     background-color: #1C1D21;
-    padding: 3rem;
+    padding: 5rem 2rem;
     height: 100vh;
+    border-top: #A288A6 2px solid;
 }
 
 .tech-container {
@@ -174,7 +175,6 @@ body {
 
 .projects-page h2 {
     font-size: 4rem;
-    margin-bottom: 3rem;
 }
 
 .title-repo,
