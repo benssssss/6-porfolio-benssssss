@@ -7,13 +7,13 @@ html {
 body {
     background-color: #1C1D21;
     color: rgb(255, 255, 255);
-
+    display: flex;
+    justify-content: center;
 }
 
 .main-container {
     min-height: 100vh;
     display: grid;
-
     grid-template-areas:
         "menu-page menu-page"
         "tech-page tech-page"
@@ -26,6 +26,7 @@ body {
     background-image: url('/src/images/background-code.png');
     background-size: contain;
     background-repeat: no-repeat;
+
 }
 
 .menu-page {
@@ -55,6 +56,7 @@ body {
 
 .hero-texts {
     padding: 2.1rem;
+    width: 100%;
 }
 
 .hero-texts .title {
@@ -65,12 +67,14 @@ body {
 .hero-texts .description,
 .hero-texts .title,
 .hero-texts .description,
-.speak-to-me {
+.speak-to-me,
+.as-know-as {
     text-align: center;
 }
 
 .hero-texts .title .augusto-name {
     color: #ffffff;
+    font-size: 3.2rem;
 }
 
 .as-know-as,
@@ -80,9 +84,12 @@ body {
 }
 
 .hero-texts .as-know-as,
-.hero-texts .description,
-.speak-to-me {
+.hero-texts .description {
     font-size: 1.8rem;
+}
+
+.speak-to-me {
+    font-size: 2.1rem;
 }
 
 .hero-texts .description,
@@ -91,28 +98,30 @@ body {
 }
 
 .hero-texts .description {
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 .speak-to-me {
-    margin-top: 10rem;
-    border-bottom: #ffffff solid 2.5px;
-    padding-bottom: 10px;
-    width: 125px;
+    margin-top: 7rem;
+    width: 150px;
 }
 
-.container-speak-to-me {
+.container-speak-to-me a {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.container-speak-to-me p:hover {
+.speak-to-me a:hover {
+    padding-bottom: 2px;
+    border-bottom: #ffffff solid 2px;
+}
+
+.speak-to-me a:hover {
     color: #A288A6;
     border-color: #A288A6;
     transition: 0.3s ease-in-out;
 }
-
-/* --------------------------- */
 
 .tech-page {
     grid-area: tech-page;
@@ -157,9 +166,6 @@ body {
     color: #ffffff;
 }
 
-
-/* --------------------------- */
-
 .projects-page {
     grid-area: projects-page;
     background-color: #1C1D21;
@@ -178,6 +184,10 @@ body {
 .pages,
 .pages a {
     display: flex;
+}
+
+.pages a {
+    align-items: baseline;
 }
 
 .title-repo {
@@ -259,13 +269,12 @@ body {
     margin-top: 35px;
 }
 
-/* --------------------------- */
-
 .contact-page {
     grid-area: contact-page;
     background-color: #A288A6;
     padding: 1.5rem 4rem;
     text-align: center;
+    margin-top: 5rem;
 }
 
 .contact-page .contact {
@@ -290,6 +299,10 @@ body {
     margin-top: 5px;
 }
 
-.social-media a:hover {
+.menu-page-container .social-media a:hover {
+    color: #A288A6;
+}
+
+.contact-page .social-media a:hover {
     color: #1C1D21;
 }
