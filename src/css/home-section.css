@@ -1,0 +1,165 @@
+#home-page {
+    grid-area: menu-page;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home-page .hero-texts {
+    padding: 2.1rem;
+}
+
+#home-page .hero-texts .title {
+    font-size: 3.6rem;
+    line-height: 4rem;
+}
+
+.hero-texts .description,
+.hero-texts .title,
+.speak-to-me,
+.as-know-as {
+    text-align: center;
+}
+
+.hero-texts .description,
+.speak-to-me {
+    font-weight: 300;
+}
+
+.speak-to-me {
+    font-size: 2.1rem;
+}
+
+.as-know-as,
+.hero-texts .title {
+    color: var(--reverse-color)
+}
+
+.hero-texts {
+    padding: 2.1rem;
+    width: 100%;
+}
+
+.hero-texts .title {
+    font-size: 3.6rem;
+    line-height: 4rem;
+}
+
+.hero-texts .title .augusto-name {
+    color: var(--light-color);
+    font-size: 3.2rem;
+}
+
+.hero-texts .as-know-as,
+.hero-texts .description {
+    font-size: 1.8rem;
+}
+
+.hero-texts .description {
+    margin-top: 4rem;
+}
+
+.speak-to-me {
+    margin-top: 7rem;
+    width: 150px;
+}
+
+.container-speak-to-me a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speak-to-me a:hover {
+    color: var(--reverse-color);
+    transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 380px) {
+
+    .hero-texts .title {
+        font-size: 4.5rem;
+        line-height: 4rem;
+    }
+
+    .hero-texts .title .augusto-name {
+        font-size: 3.5rem;
+    }
+
+    .hero-texts .title {
+        line-height: 5rem;
+    }
+}
+
+@media (min-width: 440px) {
+    #home-page .hero-texts {
+        padding: 2.6rem 4rem;
+    }
+
+    #home-page .hero-texts .title {
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+    }
+
+    .hero-texts .title .augusto-name {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #home-page .hero-texts {
+        padding: 2.6rem 0rem;
+    }
+
+    #home-page {
+        padding: 2.1rem;
+    }
+
+    #home-page .hero-texts .title,
+    .hero-texts .title .augusto-name {
+        font-size: 6rem;
+        line-height: 6rem;
+        text-align: start;
+    }
+
+    .hero-texts .as-know-as {
+        font-size: 3.3rem;
+    }
+
+    .as-know-as,
+    .hero-texts .description {
+        text-align: start;
+    }
+
+    .hero-texts .description {
+        width: 400px;
+    }
+}
+
+@media (min-width: 960px) {
+    #home-page {
+        padding: 1rem 3.5rem;
+    }
+
+    #home-page .hero-texts .title,
+    .hero-texts .title .augusto-name {
+        font-size: 8.5rem;
+        line-height: 8rem;
+        text-align: start;
+    }
+
+    .hero-texts .description {
+        width: 500px;
+        font-size: 2.3rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    #home-page {
+        justify-content: start;
+        width: 1280px;
+        padding: 5rem;
+
+    }
+}

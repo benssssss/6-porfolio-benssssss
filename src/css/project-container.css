@@ -1,0 +1,152 @@
+.container {
+    margin-top: 35px;
+}
+
+.container img {
+    transition: 0.4s ease-in-out;
+}
+
+.container img:hover {
+    filter: blur(2px);
+}
+
+.title-repo,
+.repo {
+    display: flex;
+}
+
+.title-repo,
+.language-pages {
+    font-weight: 500;
+}
+
+.title-repo {
+    justify-content: space-between;
+    margin-bottom: 2px;
+    font-size: 1.7rem;
+}
+
+.repo {
+    align-items: center;
+    font-size: 2rem;
+    gap: .4rem;
+}
+
+.pages a {
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.pages,
+.pages a {
+    display: flex;
+    gap: 5px;
+}
+
+.repo p,
+.span-pages {
+    font-weight: 200;
+}
+
+.language-pages,
+.pages {
+    font-size: 1.5rem;
+}
+
+.language-pages,
+.languages,
+.pages {
+    display: flex;
+}
+
+.repo p,
+.languages,
+.github {
+    font-size: 1.8rem;
+}
+
+.languages {
+    color: var(--reverse-color);
+    gap: .5rem;
+}
+
+.language-pages {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github {
+    font-family: var(--git-font);
+    font-weight: 800;
+}
+
+.span-pages {
+    font-family: var(--alternative-font);
+    font-size: 1.7rem;
+}
+
+.title-repo a:hover {
+    color: var(--reverse-color);
+    transition: 0.3s ease-in-out;
+}
+
+.pages a:hover {
+    color: var(--reverse-color);
+    transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 550px) {
+
+    .repo,
+    .title-repo,
+    .repo p,
+    .as-know-as,
+    .language-pages,
+    .languages,
+    .github,
+    .span-pages {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .repo,
+    .title-repo,
+    .repo p,
+    .as-know-as,
+    .language-pages,
+    .languages,
+    .github,
+    .span-pages {
+        font-size: 1.9rem;
+    }
+}
+
+@media (min-width: 960px) {
+
+    .repo,
+    .title-repo,
+    .repo p,
+    .as-know-as,
+    .language-pages,
+    .languages,
+    .github,
+    .span-pages {
+        font-size: 2.3rem;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .repo,
+    .title-repo,
+    .repo p,
+    .as-know-as,
+    .language-pages,
+    .languages,
+    .github,
+    .span-pages {
+        font-size: 2.7rem;
+    }
+}

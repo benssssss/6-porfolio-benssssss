@@ -1,0 +1,34 @@
+.social-media-bottom,
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-media a,
+.social-media-bottom a {
+    font-size: 4rem;
+    transition: 0.3s ease-in-out;
+    color: var(--light-color);
+}
+
+.social-media-bottom a:hover {
+    color: var(--dark-color);
+}
+
+.social-media a:hover {
+    color: var(--reverse-color);
+}
+
+@media (min-width: 768px) {
+
+    .social-media,
+    .social-media-bottom {
+        justify-content: end;
+    }
+
+    .social-media a,
+    .social-media-bottom a {
+        font-size: 5rem;
+    }
+}

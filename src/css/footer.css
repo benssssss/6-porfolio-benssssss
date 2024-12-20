@@ -1,0 +1,134 @@
+#footer {
+    width: 100%;
+    grid-area: contact-page;
+    background-color: var(--reverse-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 2.5rem;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#footer .contact {
+    font-size: 5rem;
+    color: var(--dark-color);
+    font-weight: 900;
+}
+
+.contact,
+.ouvir-sobre {
+    margin-bottom: 10px;
+}
+
+.ouvir-sobre,
+.me-contate {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+@media (min-width: 320px) {
+    .footer-container {
+        width: 75%;
+    }
+}
+
+@media (min-width: 380px) {
+
+    .ouvir-sobre,
+    .me-contate {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 550px) {
+
+    .footer-container {
+        width: 80%;
+    }
+
+    .ouvir-sobre,
+    .me-contate {
+        font-size: 2.2rem;
+    }
+
+    #footer .contact {
+        font-size: 7rem;
+    }
+
+    .contact-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #footer {
+        padding: 0;
+    }
+
+    .footer-container {
+        width: 768px;
+        padding: 2.1rem;
+    }
+
+    .ouvir-sobre,
+    .me-contate {
+        text-align: start;
+        width: 400px;
+        font-size: 1.9rem;
+        line-height: 2rem;
+    }
+
+    .contact,
+    .ouvir-sobre,
+    .me-contate {
+        align-self: flex-start;
+    }
+}
+
+@media (min-width: 960px) {
+    .footer-container {
+        width: 960px;
+        padding: 3.5rem;
+    }
+
+    .ouvir-sobre,
+    .me-contate {
+        width: 500px;
+        font-size: 2.7rem;
+        line-height: 3.3rem;
+    }
+
+    #footer .contact {
+        font-size: 8rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer-container {
+        width: 1280px;
+        padding: 5rem;
+    }
+
+    .ouvir-sobre,
+    .me-contate {
+        width: 700px;
+        font-size: 3.2rem;
+        line-height: 3.7rem;
+    }
+
+    #footer .contact {
+        font-size: 10rem;
+    }
+}

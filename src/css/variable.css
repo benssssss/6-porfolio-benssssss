@@ -1,0 +1,21 @@
+:root {
+    --dark-color: #0b0b0b;
+    --light-color: #EEF0F2;
+    --reverse-color: #F26A8D;
+
+    --git-font: "Roboto Condensed";
+    --main-font: "Hanken Grotesk";
+    --alternative-font: "Open sans";
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-items {
+    align-items: center;
+}

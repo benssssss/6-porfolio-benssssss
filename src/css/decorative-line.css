@@ -1,0 +1,7 @@
+.decorative-line {
+    margin-top: 5rem;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: var(--reverse-color);
+}
