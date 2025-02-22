@@ -67,7 +67,7 @@
 
 .languages {
     color: var(--reverse-color);
-    gap: .5rem;
+    gap: 1.1rem;
 }
 
 .language-pages {
